@@ -1,6 +1,6 @@
-# New Project
+# GitHub Catalyst Playground
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+Web Component demos written with [Catalyst](https://github.github.io/catalyst/).
 
 ## Available Scripts
 
