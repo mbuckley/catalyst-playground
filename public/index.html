@@ -9,6 +9,7 @@
     <title>Catalyst development App</title>
   </head>
   <body>
+    <h2>Hello World Example</h2>
     <hello-world>
       <input
         data-target="hello-world.name"
@@ -24,6 +25,26 @@
         data-target="hello-world.output">
       </span>
     </hello-world>
+
+    <h2>Search Example with Debounce</h2>
+    <fuzzy-search>
+      <input
+        data-target="fuzzy-search.name"
+        data-action="input:fuzzy-search#search"
+        type="text"
+      >
+      <span
+        data-target="fuzzy-search.output">
+      </span>
+    </fuzzy-search>
+
+    <h2>Lazy Loader</h2>
+    <hover-card disabled>
+      <lazy-loader data-url="https://picsum.photos/v2/list?limit=1" data-action="loaded:hover-card#enable">
+        Loading...
+      </lazy-loader>
+    </hover-card>
+
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script type="module" src="/dist/index.js"></script>
   </body>

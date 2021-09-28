@@ -1,1 +1,1 @@
-import './components/hello-world.element';
+import './components';
